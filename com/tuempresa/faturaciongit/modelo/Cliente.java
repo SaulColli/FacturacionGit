@@ -17,4 +17,6 @@ int numero;
 @Column(length=50)
 String nombre;
 
+  @Embedded @NoFrame
+  Direccion direccion;
 }
